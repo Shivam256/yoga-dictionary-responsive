@@ -1,0 +1,45 @@
+@media only screen and (max-width: 860px){
+  .input-container{
+    max-height: 8vh;
+    max-width: 90vw;
+    width: 90vw;
+    margin: 0vh auto 1vh;
+    overflow-x: scroll;
+    padding: 1em 0.5em;
+    /* background-color: green; */
+  }
+  .input-container::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .type-select{
+    font-size: 1em;
+    margin: 0em 0.5em;
+    /* background-color: #B3233B; */
+    background-color: white;
+    color: #B3233B;
+    min-height: 5vh;
+    border: 2px solid rgb(179, 35, 59);
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: background-color 0.2s linear;
+    cursor: pointer;
+  }
+  .type-select2{
+    font-size: 1em;
+    margin: 1em 1em;
+    /* background-color: #B3233B; */
+    background-color: #B3233B;
+    color: white;
+    min-height: 5vh;
+    border: 2px solid rgb(179, 35, 59);
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: background-color 0.2s linear;
+    cursor: pointer;
+  }
+  .type-select:hover{
+    background-color: #B3233B;
+    color: white;
+  }
+}

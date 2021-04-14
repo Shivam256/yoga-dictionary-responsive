@@ -1,0 +1,142 @@
+@media only screen and (max-width: 860px) {
+  #asana-container {
+    width: 100%;
+    max-height: 75vh;
+    min-height: 75vh;
+    margin: 1em auto 0;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    box-sizing: content-box;
+    /* background-color: rgb(209, 54, 54); */
+  }
+
+  .asana-card {
+    min-width: 36vw;
+    max-width: 36vw;
+    min-height: 27vh;
+    max-height: 27vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 1em 0.5em;
+    font-weight: 600;
+  }
+  .asana-card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1);
+  }
+
+  .asana-image {
+    width: 23vw;
+    height: 23vw;
+    position: relative;
+    bottom: -3vh;
+  }
+  .asana4-image{
+    width: 23vw;
+    height: 23vw;
+    position: relative;
+    bottom: 0vh;
+  }
+  .sanskrit-name{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .asana-info{
+
+    width: 85vw;
+    margin: 2em auto;
+    min-height: 80vh;
+    max-height: 80vh;
+    position: relative;
+    opacity: 0;
+    /* top: -75vh; */
+    top: -155vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* display: none; */
+    z-index: 23;
+    border-radius: 15px;
+    border: 2px solid #B3233B;
+    
+  }
+
+  .asana-image-container{
+    display: inline-block;
+    /* width: 20vw; */
+    min-height: 20vh;
+    max-height:20vh;
+    background-color: #FFEFD6;
+    position: relative;
+    /* top: -43vh; */
+    border-radius: 15px 15px 0 0;
+    border-right: none;
+    overflow: hidden;
+  }
+  .asana-data{
+    display: inline-block;
+    /* width: 40vw; */
+    min-height: 58vh;
+    max-height: 58vh;
+    background-color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    overflow-y: scroll;
+  }
+  .asana-data::-webkit-scrollbar{
+    display: none;
+  }
+
+  .img-c{
+    width: 18vh;
+    min-height: 18vh;
+    background-color: #FFEFD6;
+    margin: 1em auto 2em auto;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.6);
+  }
+  .close-btn{
+    width: 5vh;
+    max-height: 5vh;
+    font-size: 2em;
+    background-color: rgb(255, 255, 255);
+    /* float: right; */
+    cursor: pointer;
+    position: relative;
+    /* top: -3vh; */
+    z-index: 1000;
+    
+  }
+  .benefits{
+    margin: 1em 0.5em;
+    font-weight: 600;
+    text-align: left;
+  }
+  .video-section{
+    margin: 1em 0.5em;
+    font-weight: 600;
+    text-align: left;
+  }
+
+
+  @keyframes asana-entry{
+    from{
+      top:-155vh;
+      opacity: 0;
+    }
+    to{
+      top: -85vh;
+      opacity: 1;
+    }
+  }
+  @keyframes asana-exit{
+    from{
+      top:-85vh;
+      opacity: 1;
+    }
+    to{
+      top: -155vh;
+      opacity: 0;
+    }
+  }
+
+}

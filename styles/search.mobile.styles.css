@@ -1,0 +1,10 @@
+@media only screen and (max-width: 860px){
+  input{
+    width: 80vw;
+    text-align: center;
+    height: 5vh;
+    border: 2px solid rgb(179, 35, 59);
+    color: #B3233B;
+    border-radius: 20px;
+  }
+}

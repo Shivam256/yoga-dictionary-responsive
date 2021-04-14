@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  transition: all ease-in-out 0.5s;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  font-family: "Josefin Sans", sans-serif;
+  /* cursor: none; */
+  overflow-x:hidden;
+}
+a {
+  text-decoration: none;
+}
+
+.navigation-container{
+  margin-top: 1em;
+}
+
+.navigation-elem{
+  max-width: 32vw;
+  min-height: 32vh;
+  background-color: rgb(255, 255, 255);
+  margin: 0 2em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.navigation-elem:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.1);
+}
+
+.nav-img{
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 25vh;
+  max-height: 25vh;
+  margin-bottom: 0.5em;
+  /* background-color: red; */
+}
+.navigation-elem .nav-text{
+  font-size: 1.3em;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.carousal-txt {
+  text-transform: uppercase;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  position: relative;
+  top: 0.5em;
+  
+}

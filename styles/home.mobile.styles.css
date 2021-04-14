@@ -1,0 +1,38 @@
+@media only screen and (max-width: 860px){
+  .navigation-container{
+    margin-top: 1em;
+  }
+  
+  .navigation-elem{
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 20vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5em 0em;
+  }
+  .navigation-elem:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* transform: scale(1.1); */
+    transform: scale(1);
+  }
+  .nav-elem-3{
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .nav-img{
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 18vh;
+    max-height: 18vh;
+    margin-bottom: 0.5em;
+    /* background-color: red; */
+  }
+  .navigation-elem .nav-text{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+}
