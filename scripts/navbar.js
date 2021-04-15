@@ -1,10 +1,14 @@
 window.onload = addRequiredClass
 
+const nm = document.querySelector("#home-head-name");
+
 function addRequiredClass() {
   if (window.innerWidth < 860) {
-    document.body.classList.add('mobile')
+    document.body.classList.add('mobile');
+    nm.style.fontSize = "1em";
   } else {
-    document.body.classList.remove('mobile')
+    document.body.classList.remove('mobile');
+    nm.style.fontSize = "1.7em";
   }
 }
 

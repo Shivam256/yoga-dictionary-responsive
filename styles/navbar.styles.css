@@ -26,7 +26,7 @@
 #home-head-name {
   font-size: 1.7em;
   position: relative;
-  top: -1vh;
+  /* top: -1vh; */
   color: #1d3557;
   font-weight: 500;
   font-family: 'Comfortaa', cursive;
