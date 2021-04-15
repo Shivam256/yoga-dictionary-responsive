@@ -5,7 +5,7 @@ const nm = document.querySelector("#home-head-name");
 function addRequiredClass() {
   if (window.innerWidth < 860) {
     document.body.classList.add('mobile');
-    nm.style.fontSize = "1em";
+    nm.style.fontSize = "1.4em";
   } else {
     document.body.classList.remove('mobile');
     nm.style.fontSize = "1.7em";
