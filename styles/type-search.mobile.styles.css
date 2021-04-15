@@ -1,4 +1,7 @@
 @media only screen and (max-width: 860px){
+  *{
+    transition: all ease-in-out 0.2s;
+  }
   .input-container{
     max-height: 8vh;
     max-width: 90vw;
@@ -27,7 +30,7 @@
   }
   .type-select2{
     font-size: 1em;
-    margin: 1em 1em;
+    margin: 0em 0.5em;
     /* background-color: #B3233B; */
     background-color: #B3233B;
     color: white;

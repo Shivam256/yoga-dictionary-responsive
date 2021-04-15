@@ -1,4 +1,7 @@
 @media only screen and (max-width: 860px) {
+  *{
+    transition: all ease-in-out 0.2s;
+  }
   .article {
     min-height: 30vh;
     min-width: 80vw;
@@ -27,7 +30,7 @@
   .article-text-container {
     width: 100%;
     min-height: 10vh;
-    max-height: 10vh;
+    max-height: fit-content;
     text-align: center;
     padding: 1em;
     font-weight: 800;

@@ -13,7 +13,7 @@ const closeInfoCard = () => {
 
 const createAsanaCard = (asana) => {
   const card = document.createElement("div");
-  card.classList.add("col-5");
+  card.classList.add("col-12");
   card.classList.add("col-lg-3");
   card.classList.add("asana-card");
 

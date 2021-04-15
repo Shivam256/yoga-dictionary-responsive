@@ -32,7 +32,7 @@
   position: relative;
   opacity: 0;
   /* top: -75vh; */
-  top: -155vh;
+  top: -255vh;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   /* display: none; */
@@ -165,7 +165,7 @@
 /* ====================keyframes======================== */
 @keyframes asana-entry{
   from{
-    top:-155vh;
+    top:-255vh;
     opacity: 0;
   }
   to{
@@ -179,7 +179,7 @@
     opacity: 1;
   }
   to{
-    top: -155vh;
+    top: -255vh;
     opacity: 0;
   }
 }
