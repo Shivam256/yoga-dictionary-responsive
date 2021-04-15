@@ -45,6 +45,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   background-color: white;
+  max-height: 10vh;
 }
 
 .nav-wrapper {
@@ -56,6 +57,7 @@ body {
 .brand {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .brand svg {

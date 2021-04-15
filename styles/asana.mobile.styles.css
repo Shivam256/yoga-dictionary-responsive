@@ -47,7 +47,7 @@
   }
   .asana-info{
 
-    width: 85vw;
+    width: 90vw;
     margin: 2em auto;
     min-height: 80vh;
     max-height: 80vh;
@@ -67,8 +67,8 @@
   .asana-image-container{
     display: inline-block;
     /* width: 20vw; */
-    min-height: 20vh;
-    max-height:20vh;
+    min-height: 25vh;
+    max-height:25vh;
     background-color: #FFEFD6;
     position: relative;
     /* top: -43vh; */
@@ -79,10 +79,10 @@
   .asana-data{
     display: inline-block;
     /* width: 40vw; */
-    min-height: 58vh;
-    max-height: 58vh;
+    min-height: 50vh;
+    max-height: 50vh;
     background-color: #ffffff;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 0 15px 15px;
     overflow-y: scroll;
   }
   .asana-data::-webkit-scrollbar{
@@ -90,8 +90,8 @@
   }
 
   .img-c{
-    width: 18vh;
-    min-height: 18vh;
+    width: 20vh;
+    min-height: 20vh;
     background-color: #FFEFD6;
     margin: 1em auto 2em auto;
     background-position: center;
@@ -111,7 +111,7 @@
     
   }
   .benefits{
-    margin: 1em 0.5em;
+    margin: 1em 0.2em;
     font-weight: 600;
     text-align: left;
   }
@@ -128,13 +128,13 @@
       opacity: 0;
     }
     to{
-      top: -85vh;
+      top: -87vh;
       opacity: 1;
     }
   }
   @keyframes asana-exit{
     from{
-      top:-85vh;
+      top:-87vh;
       opacity: 1;
     }
     to{

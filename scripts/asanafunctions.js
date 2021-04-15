@@ -106,10 +106,12 @@ const createAsanaCard = (asana) => {
 
     const videoSection = document.createElement("div");
     videoSection.classList.add("video-section");
+    let vidWid = window.innerWidth*(0.8);
+    let vidHgt = window.innerHeight*(0.3);
     // videoSection.innerHTML = `VIDEO: <br/><br/><iframe width="420" height="270" src="${asana.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     let videoLinkDesktop = `VIDEO: <br/><br/><iframe width="420" height="270" src="${asana.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 
-    let videoLinkMobile = `VIDEO: <br/><br/><iframe width="310" height="170" src="${asana.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    let videoLinkMobile = `VIDEO: <br/><br/><iframe width="${vidWid}" height="${vidHgt}" src="${asana.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
     if(window.innerWidth > 860){
       videoSection.innerHTML = videoLinkDesktop;
     }
