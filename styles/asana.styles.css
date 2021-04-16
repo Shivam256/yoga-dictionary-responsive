@@ -137,6 +137,8 @@
   background-color: rgb(255, 255, 255);
   float: right;
   cursor: pointer;
+  position: absolute;
+  left: 95%;
 }
 
 .headings{

@@ -108,6 +108,8 @@
     position: relative;
     /* top: -3vh; */
     z-index: 1000;
+    position: absolute;
+    left: 90%;
     
   }
   .benefits{
