@@ -43,7 +43,7 @@ const data = [
     "Calms the brain and central nervous system.",
     "Stimulates the lungs, thyroid glands, and abdominal organs.",
     "Improves digestion."],
-    "video":"https://youtube.com/embed/EZyBkVBUlG4",
+    "video":"https://www.youtube.com/embed/g78vfuC4QBI",
     "description":"Setu Bandhasana is an asana in which the performer needs to assume the shape of a bridge. Therefore the asana is called as Setu Bandhasana or Bridge Pose. The asana helps in stretching your back, neck and chest while it relaxes your body as a whole. It also strengthens your legs, back and chest.",
     "type":["men","women","kids","athletes"]
     
