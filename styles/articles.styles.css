@@ -11,8 +11,6 @@ body {
   margin: 0;
   height: 100vh;
   background-color: rgb(255, 255, 255);
-  /* font-family: "Josefin Sans", sans-serif; */
-  /* cursor: none; */
   overflow-x:hidden;
 }
 a {

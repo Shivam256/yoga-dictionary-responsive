@@ -60,16 +60,6 @@ body {
   cursor: pointer;
 }
 
-.brand svg {
-  height: 30px;
-  margin-top: 10px;
-  margin-right: 10px;
-  transform: scale(2);
-}
-
-/* .brand svg path {
-    fill: var(--pure);
-} */
 
 .nav-wrapper ul.nav-list {
   list-style-type: none;

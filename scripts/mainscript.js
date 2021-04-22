@@ -1,8 +1,4 @@
 
-//navbar responsive code
-
-
-
 //carousel code
 const carouselImages = document.querySelectorAll(".carousel-item img");
 
